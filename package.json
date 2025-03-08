@@ -1,10 +1,20 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "\"# mind9-frontend\"",
+  "description": "Mind9 Frontend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.12.1"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
   },
   "keywords": [],
   "author": "",
